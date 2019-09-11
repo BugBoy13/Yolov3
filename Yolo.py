@@ -29,7 +29,7 @@ m.print_network()
 plt.rcParams['figure.figsize'] = [24.0, 14.0]
 
 # Load the image
-img = cv2.imread('./images/img1.jpg')
+img = cv2.imread('./images/img.jpg')
 
 # Convert the image to RGB
 original_image = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
